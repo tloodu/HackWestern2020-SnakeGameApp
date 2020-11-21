@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./App.css"
 
 //Clock App
 class App extends Component{
@@ -23,9 +24,16 @@ class App extends Component{
     //renders as text
     render(){
       return (
-        <h1>
-          {this.state.time.toLocaleTimeString()}
-        </h1>
+        <div className = "clock">
+          <div className = "rectangle"></div>
+          <div className = "logo">
+            <h2>solaris</h2>
+          </div>
+          <div className = "sun"></div>
+          <h1>
+            {this.state.time.toLocaleTimeString()}
+          </h1>
+        </div>
       )
     }
 }
