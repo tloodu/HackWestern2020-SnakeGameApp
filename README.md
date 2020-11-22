@@ -16,8 +16,8 @@ Solaris is a web application that makes the act of waking up in the morning a mo
 We created this application using HTML, CSS and Javascript (React). The Homepage of this website was created using React and styled with CSS to achieve a simple-to-use user interface. The Snake game portion of this application was created using HTML and styled using CSS. The snake game is credited to Steven Lambert who created a license-free and open-source snake game at https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4. With this code we were able to style it and add additional features which would create a better environment for our users.
 
 ## Challenges we ran into 
-There were quite a few challenges we ran into involving the creation of the home page. At first, we were rusty with using React, and thus it took some time to get used to the working enviornment once again, such as creating the dynammic clock and alarm clock. Other challenges included figuring out Git and text editors for someone who is new to the working environment.
+There were quite a few challenges we ran into involving the creation of the home page. At first, we were rusty with using React, and thus it took some time to get used to the working environment once again, such as creating the dynamic clock and alarm clock. Other challenges included figuring out Git and text editors for someone who is new to the working environment.
 
 ## Accomplishments that we're proud of
-We are quite proud of what we accomplished, learning more and becoming familiar with web-design. We came into this event lacking knowledge in certain fields, but definetly left stronger!
+We are quite proud of what we accomplished, learning more and becoming familiar with web-design. We came into this event lacking knowledge in certain fields, but definitely left stronger!
 
