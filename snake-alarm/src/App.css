@@ -1,24 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Staatliches&display=swap');
+
+.background{
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  font-family: 'Cabin', sans-serif;
+  font-weight: lighter;
+  overflow: hidden;
+}
+
 .clock{
-    font-size: 70px;
+    font-size: 80px;
+    color: black;
     width: 100%;
+    height: 150px;
     white-space: nowrap;
     text-align: center;
     left: 100%;
     bottom: 100%;
-    line-height: 6.25;
+    line-height: 1;
+    padding-bottom: 0;
   }
-
-.sun{
-    width: 1000px;
-    height: 1000px;
-    background: #ff7400;
-    border-radius: 50%;
-    margin: auto;
-    position:absolute;
-    top:-110%;
-    left: 12%;
-    z-index: -1;
-}
 
 .rectangle{
   height: 65px;
@@ -35,7 +37,28 @@
   width: 100%;
   text-align: left;
   font-size: 35px;
-  color: white;
+  color:white;
   position: absolute;
-  margin-top: -21.5%;
-  display: block;}
+  display: block;
+  z-index: 2;
+  top: -7.25%;
+  left: 1.5%;
+  font-family: 'Staatliches', cursive;
+}
+
+.alarmphrase{
+  font-size: 50px;
+  width: 100%;
+  text-align: center;
+  color: black;
+  top: 100%;
+}
+
+.setTime{
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  top: 80%;
+  text-align: center;
+  size: 100;
+}
