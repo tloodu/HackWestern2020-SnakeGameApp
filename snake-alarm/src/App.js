@@ -30,13 +30,14 @@ class App extends Component{
       })
     }
 
-    setAlarmTime(event) {
-      event.preventDefault();
-      const inputAlarmTimeModified = event.target.value + ':00'
-      this.setState({
-        alarmTime: inputAlarmTimeModified
-      })
-    }
+
+    checkAlarmClock(){
+        if(this.state.time == this.state.alarmTime) {
+          alert("its time!");
+        } else {
+          console.log("not yet");
+        }
+      }   
 
     //renders as text
     render(){
@@ -46,14 +47,14 @@ class App extends Component{
           <div className = "logo">
             <h2>solaris</h2>
           </div>
-          <div className = "sun"></div>
           <div className = "clock"><h1>{this.state.time.toLocaleTimeString()}</h1></div>
           <div className = "alarmphrase"><h2>Set an Alarm &#128516;</h2></div>
-          <div className = "setTime">
+          <div className= "timer">
             <form>
-            <input type="time" onChange={this.setAlarmTime}></input>
+            <input className= "setTime" type="time" onChange={this.setAlarmTime}></input>
             </form>
           </div>
+          <div className = "sun"></div>
         </div>
       )
 
