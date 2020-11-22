@@ -70,7 +70,26 @@
 
 .timer{
   width: 100%;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 0%;
+  margin-right: 0%;
   position: absolute;
+}
+
+.button {
+  background-color: #FF7400;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+}
+
+.buttondiv{
+  margin-left: 25%;
+  width: 100%;
+  text-align: center;
 }

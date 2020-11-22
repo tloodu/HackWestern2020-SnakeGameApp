@@ -54,7 +54,9 @@ class App extends Component{
             <input className= "setTime" type="time" onChange={this.setAlarmTime}></input>
             </form>
           </div>
-          <div className = "sun"></div>
+          <div className= "buttondiv">
+            <a href= "testsnake.html"><button className= "button" type="button">Play Game</button></a>
+          </div>
         </div>
       )
 
