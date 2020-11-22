@@ -22,6 +22,7 @@ class App extends Component{
       setInterval(() => this.currentTime(),1000)
     }
 
+    //alarm clock time is set
     setAlarmTime(event) {
       event.preventDefault();
       const inputAlarmTimeModified = event.target.value + ':00'
@@ -30,7 +31,7 @@ class App extends Component{
       })
     }
 
-
+    //alert is sent if alarm clock time == regular time
     checkAlarmClock(){
         if(this.state.time == this.state.alarmTime) {
           alert("its time!");
@@ -47,7 +48,9 @@ class App extends Component{
           <div className = "logo">
             <h2>solaris</h2>
           </div>
-          <div className = "clock"><h1>{this.state.time.toLocaleTimeString()}</h1></div>
+          <div className = "clock">
+            <h1>{this.state.time.toLocaleTimeString()}
+            </h1></div>
           <div className = "alarmphrase"><h2>Set an Alarm &#128516;</h2></div>
           <div className= "timer">
             <form>
